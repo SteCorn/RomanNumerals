@@ -6,7 +6,9 @@ public class TestRomanNumerals {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		assertEquals(1, RomanNumerals.convertToInteger("I"));
+		assertEquals(10, RomanNumerals.convertToInteger("X"));
+		assertEquals(100, RomanNumerals.convertToInteger("C"));
 	}
 
 }
