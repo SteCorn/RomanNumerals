@@ -9,7 +9,6 @@ public class TestRomanNumerals {
 		assertEquals(1, RomanNumerals.convertToInteger("I"));
 		assertEquals(10, RomanNumerals.convertToInteger("X"));
 		assertEquals(100, RomanNumerals.convertToInteger("C"));
-		assertEquals(50, RomanNumerals.convertToInteger("L"));
 		assertEquals(1000, RomanNumerals.convertToInteger("M"));
 	}
 
